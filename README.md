@@ -64,6 +64,10 @@ and CPU cycles.
 
 That's pretty much it. Enjoy!
 
+### TODO
+
+*   Unit tests
+
 ## License
 
 ConstantsArray is licensed under the MIT license. See [LICENSE]
