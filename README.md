@@ -35,16 +35,11 @@ echo <<<SQL
 SQL;
 ```
 
-Another option would be to use PHP's `get_defined_constants()` function
-to get all of the constants in the environment. But, unless you're going
-to use every constant in your string (hey, leave my examples alone)
-that's just a waste of memory and CPU cycles.
-
-So, this can get tedious, hard-to-read, and flat-out stupid, especially
-when strings are complicated, such as a SQL query.  
+So, this can get tedious and make code hard-to-read especially when
+strings are complicated, such as a SQL query.  
 
 Introducing `ConstantsArray`. It's a simple, array-like class that
-allows lazy access to your constants inside of a heredoc string and
+allows lightweight access to your constants inside of a heredoc string and
 without having to break out of double-quote strings or having to assign
 a bunch of variables.
 
@@ -64,7 +59,13 @@ echo <<<SQL
 SQL;
 ```
 
-That pretty much it. Enjoy!
+I should acknowledge that another option would be to use PHP's
+`get_defined_constants()` function to get all of the constants in the
+environment. But, unless you're going to use every constant in your
+string (hey, leave my examples alone) that's just a waste of memory
+and CPU cycles.
+
+That's pretty much it. Enjoy!
 
 ## License
 
