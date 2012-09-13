@@ -6,7 +6,6 @@ In PHP, if you want to use a constant in a string, you have to use the
 concatenation operator:
 
 ```php
-<?php
 define('COLOR_RED', 0);
 
 echo "The code for red is " . COLOR_RED;
@@ -15,7 +14,6 @@ echo "The code for red is " . COLOR_RED;
 or assign the constant to a variable:
 
 ```php
-<?php
 define('COLOR_RED',    0);
 define('COLOR_GREEN',  1);
 define('COLOR_BLUE',   2);
@@ -44,7 +42,6 @@ without having to break out of double-quote strings or having to assign
 a bunch of variables.
 
 ```php
-<?php
 define('COLOR_RED',    0);
 define('COLOR_GREEN',  1);
 define('COLOR_BLUE',   2);
