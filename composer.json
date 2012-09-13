@@ -1,0 +1,18 @@
+{
+	"name": "loganlinn/constantsarray",
+	"description": "A simple array-like PHP class for using constants in strings",
+	"verson": "1.0.0",
+	"keywords": ["constant", "array", "interpolation", "heredoc"],
+	"homepage": "https://github.com/loganlinn/ConstantsArray",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Logan Linn",
+			"email": "logan@loganlinn.com",
+			"homepage": "http://loganlinn.com"
+		}
+	],
+	"autoload": {
+		"psr-0": { "ConstantsArray" : "" }
+	}
+}
