@@ -2,8 +2,6 @@
 
 ## A simple array-like PHP class for using constants in strings
 
-### Usage
-
 In PHP, if you want to use a constant in a string, you have to use the
 concatenation operator:
 
@@ -68,7 +66,7 @@ SQL;
 
 That pretty much it. Enjoy!
 
-### License
+## License
 
 ConstantsArray is licensed under the MIT license. See [LICENSE]
 for more details
