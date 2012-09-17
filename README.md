@@ -58,9 +58,11 @@ SQL;
 
 I should acknowledge that another option would be to use PHP's
 `get_defined_constants()` function to get all of the constants in the
-environment. But, unless you're going to use every constant in your
-string (hey, leave my examples alone) that's just a waste of memory
-and CPU cycles.
+environment as an array, which you could use in a similar fashion as a
+`ConstantsArray`. However, this can be a big waste of memory. 
+
+`ConstantsArray` implements the `ArrayAccess` interface for array-like
+access to the `constant()` function, so it is lightweight and simple.
 
 That's pretty much it. Enjoy!
 
