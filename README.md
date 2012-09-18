@@ -24,7 +24,7 @@ define('COLOR_GREEN',  1);
 define('COLOR_BLUE',   2);
 
 echo sprintf(
-	"SELECT * FROM shirts WHERE color IN (%d, %d, %d)",
+	'SELECT * FROM shirts WHERE color IN (%d, %d, %d)',
 	COLOR_RED,
 	COLOR_GREEN,
 	COLOR_BLUE
