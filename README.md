@@ -97,4 +97,4 @@ ConstantsArray is licensed under the MIT license. See [LICENSE]
 for more details
 
 [ConstantsArray]: https://github.com/loganlinn/ConstantsArray/blob/master/ConstantsArray.php
-[LICENSE]: http://raw.github.com/loganlinn/ConstantsArray/master/MIT-LICENSE.txt
+[LICENSE]: http://raw.github.com/loganlinn/ConstantsArray/master/LICENSE
